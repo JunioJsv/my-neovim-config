@@ -1,14 +1,16 @@
 call plug#begin()
-Plug 'phanviet/vim-monokai-pro'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'JunioJsv/portugol-support-vim'
+Plug 'mhartington/oceanic-next'
 call plug#end()
 
 set termguicolors
-colorscheme monokai_pro
+syntax enable
+colorscheme OceanicNext
+set guifont=Fira\ Code:h11
 set hidden
 set number
 set mouse=a
